@@ -21,7 +21,7 @@
 	    <label for="pwd"><b>Password</b></label>
 	    <input type="text" placeholder="Enter a Strong Password" name="password" required>
 	        
-	    <button type="submit">Register</button>
+	    <button type="submit" class="green-button">Register</button>
 	   
 	  </div>
 	

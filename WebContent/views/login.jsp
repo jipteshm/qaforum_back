@@ -77,18 +77,18 @@
 	      <input type="checkbox" checked="checked" name="remember"> Remember me
 	    </label>
 	    
-	    <button type="submit">Login</button>
+	    <button type="submit" class="green-button">Login</button>
 	  </div>
 	
 	  <div class="button-container" style="background-color:#f1f1f1">
 	    <a href="register">
-	    	<button type="button" class="cancelbtn">Register</button>
+	    	<button type="button" class="cancelbtn green-button">Register</button>
 	    </a>
 	    <a href="forgot-password">
-	    	<button type="button" class="cancelbtn">Forgot password?</button>
+	    	<button type="button" class="cancelbtn green-button">Forgot password?</button>
 	    </a>
 	     <a href="home">
-	    	<button type="button" class="cancelbtn float-right">Cancel</button>
+	    	<button type="button" class="cancelbtn float-right green-button">Cancel</button>
 	    </a>
 	  </div>
 	</form>

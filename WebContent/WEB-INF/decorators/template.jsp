@@ -6,6 +6,7 @@
 		<title><decorator:title default="QAMS - Question & Answer Management System" /></title>
 		<decorator:head />
 		<link rel="stylesheet" href="css/styles.css"/>
+		<script src="script/jquery/jquery-3.4.1.min.js"></script> 
 	</head>
 
 	<body>

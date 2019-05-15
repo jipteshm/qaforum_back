@@ -3,8 +3,8 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 
 <div id="header-content" class="header">
-	<h1>QAMS</h1>
-  	<p>Question Answer Management System.</p>
+	<h1>Quanf</h1>
+  	<p>A Leading Question Answer Forum in India</p>
 </div> 
 <div class="topnav">
   <a href="home">Dashboard</a>

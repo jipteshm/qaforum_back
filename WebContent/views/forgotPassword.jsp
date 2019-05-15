@@ -51,7 +51,7 @@
 	    <label for="psw"><b>Confirm New Password</b></label>
 	    <input type="password" placeholder="Enter New Password Again" name="confirmNewPassword" required>
 	        
-	    <button type="submit">Submit</button>
+	    <button type="submit" class="green-button">Submit</button>
 	  </div>
 	</form>
 </div>

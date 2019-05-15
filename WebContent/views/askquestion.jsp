@@ -3,7 +3,11 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
-<div class="login-container">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script src="script/ckeditor/ckeditor.js"></script> 
+    
+	<div class="ask-question-container">
 
 	<%
 	if(request.getParameter("registerStatus") != null){
@@ -21,11 +25,12 @@
 	    <label for="uname"><b>Question Title</b></label>
 	    <input type="text" placeholder="Enter the Title of the Question" name="uname" required>
 	
-	    <label for="psw"><b>Description</b></label>
-	    <textarea placeholder="Enter Description of the question" name="psw" class="question-description" required></textarea>
+	    <label for="psw" class="marginBottom20"><b>Description</b></label>
+		<textarea name="description" id="ckeditor"></textarea>
 	        
-	    <button type="submit">Post Question</button>
+	    <button type="submit" class="green-button">Post Question</button>
 	  </div>
 
 	</form>
 </div>
+<script> CKEDITOR.replace( 'ckeditor' );</script>

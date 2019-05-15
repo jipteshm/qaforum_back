@@ -13,7 +13,7 @@
     <description></description>
     <display-name>Hello1</display-name>
     <servlet-name>Hello1</servlet-name>
-    <servlet-class>com.qams.servlets.HomeServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.HomeServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Hello1</servlet-name>
@@ -22,7 +22,7 @@
   <servlet>
     <display-name>login</display-name>
     <servlet-name>login</servlet-name>
-    <servlet-class>com.qams.servlets.LoginPageServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.LoginPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>login</servlet-name>
@@ -31,7 +31,7 @@
   <servlet>
     <display-name>register</display-name>
     <servlet-name>register</servlet-name>
-    <servlet-class>com.qams.servlets.RegisterPageServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.RegisterPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>register</servlet-name>
@@ -40,7 +40,7 @@
   <servlet>
     <display-name>registration</display-name>
     <servlet-name>registration</servlet-name>
-    <servlet-class>com.qams.servlets.RegistrationServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.RegistrationServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>registration</servlet-name>
@@ -49,7 +49,7 @@
   <servlet>
     <display-name>askquestion</display-name>
     <servlet-name>askquestion</servlet-name>
-    <servlet-class>com.qams.servlets.AskQuestionPageServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.AskQuestionPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>askquestion</servlet-name>
@@ -58,7 +58,7 @@
   <servlet>
     <display-name>doLogin</display-name>
     <servlet-name>doLogin</servlet-name>
-    <servlet-class>com.qams.servlets.LoginServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>doLogin</servlet-name>
@@ -67,7 +67,7 @@
   <servlet>
     <display-name>logout</display-name>
     <servlet-name>logout</servlet-name>
-    <servlet-class>com.qams.servlets.LogoutServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.LogoutServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>logout</servlet-name>
@@ -76,7 +76,7 @@
   <servlet>
     <display-name>forgot-password</display-name>
     <servlet-name>forgot-password</servlet-name>
-    <servlet-class>com.qams.servlets.ForgotPasswordPageServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.ForgotPasswordPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>forgot-password</servlet-name>
@@ -85,7 +85,7 @@
   <servlet>
     <display-name>reset-password</display-name>
     <servlet-name>reset-password</servlet-name>
-    <servlet-class>com.qams.servlets.ForgotPasswordServlet</servlet-class>
+    <servlet-class>com.qaforum.servlets.ForgotPasswordServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>reset-password</servlet-name>

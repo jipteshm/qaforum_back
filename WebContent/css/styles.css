@@ -121,7 +121,7 @@ input[type=text], input[type=password], textarea {
   box-sizing: border-box;
 }
 
-button {
+.green-button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -131,7 +131,7 @@ button {
   width: 100%;
 }
 
-button:hover {
+.green-button:hover {
   opacity: 0.8;
 }
 
@@ -155,6 +155,12 @@ img.avatar {
   padding: 16px;
   width:40%;
   margin: 0 auto;
+}
+
+.ask-question-container{
+	padding: 20px;
+	width:60%;
+	margin: 0 auto;
 }
 
 span.psw {
@@ -225,4 +231,15 @@ span.psw {
 .errorMsg{
 	font-size: 12px;
 	color: red;
+}
+
+#quill-editor{
+	height:300px;
+}
+
+.marginTop10{
+	margin-top: 10px;
+}
+.marginBottom20{
+	margin-bottom: 10px;
 }
